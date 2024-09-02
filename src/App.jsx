@@ -9,10 +9,13 @@ function App() {
 
   return (
     <>
-      <div className='flex flex-col min-h-screen w-96 bg-white h-11'>
+      <div className='flex flex-col justify-center h-fit w-96 bg-white 
+        rounded-2xl my-10 
+      '>
         <Form />
         <Result />
       </div>
+
       <Footer />
     </>
   )
